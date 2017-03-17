@@ -13,8 +13,7 @@ import android.widget.Toast;
 import com.winner.demo.widget.ClearEditText;
 
 public class MainActivity extends AppCompatActivity {
-    private ClearEditText mEditText;
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

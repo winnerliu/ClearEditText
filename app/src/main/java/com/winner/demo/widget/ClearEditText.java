@@ -42,7 +42,7 @@ public class ClearEditText extends EditText implements View.OnTouchListener, Vie
 
     private void init(final Context context,final AttributeSet attrs) {
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.ClearEditText);
-        //获取清除按钮图标资源
+        //Get a Clear button icon resource
         int iconClear = typedArray.getResourceId(R.styleable.ClearEditText_iconClear, ICON_CLEAR_DEFAULT);
         mClearTextIcon = ContextCompat.getDrawable(context, iconClear);
         mClearTextIcon.setBounds(0, 0, DensityUtil.dip2px(context, 25), DensityUtil.dip2px(context, 25));
