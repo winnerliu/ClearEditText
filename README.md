@@ -1,4 +1,4 @@
 # ClearEditText
 An edittext with clear action on right-central side.
 
-![image](https://github.com/winnerliu/ClearEditText.git/screenshots/screenshot_01.jpg)
+![image](https://raw.githubusercontent.com/winnerliu/ClearEditText/master/screenshots/screenshot_01.png)
